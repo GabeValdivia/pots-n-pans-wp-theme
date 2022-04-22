@@ -152,6 +152,23 @@ function potsnpans_scripts() {
 add_action( 'wp_enqueue_scripts', 'potsnpans_scripts' );
 
 /**
+ * Custom fonts.
+ * font-family: 'Open Sans', sans-serif;
+ * font-family: 'Nunito', sans-serif;
+ */
+function enqueue_custom_fonts(){
+	if(!is_admin()){
+		wp_register_style('open_sans', 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+		wp_register_style('nunito', 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		wp_enqueue_style('open_sans');
+		wp_enqueue_style('nunito');
+	}
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
+
+
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
