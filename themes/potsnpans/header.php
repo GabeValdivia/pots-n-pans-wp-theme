@@ -25,32 +25,36 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'potsnpans' ); ?></a>
 
-	<div class="announcement-bar">
+	<div class="announcement-bar pt-2 pb-2">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					
-					<ul>
+					<ul class="announcement-bar__list">
 						<li>
-							<i class="bi bi-telephone"></i>
+							<i class="bi bi-telephone rounded-circle"></i>
 							<a href='tel:800-111-2222'>800-111-2222</a>
 						</li>
 						<li>
-							<i class="bi bi-envelope"></i>
+							<i class="bi bi-envelope rounded-circle"></i>
 							<a href='mailto:sales@potsnpans.com'>sales@potsnpans.com</a>
 						</li>
 					</ul>
 
 				</div>
-				<div class="col-md-8">
-				<ul>
+				<div class="col-md-8 d-flex justify-content-end">
+				<ul class="announcement-bar__list">
 					<li>
-						<i class="bi bi-truck"></i>
-						<a href='#'>FREE SHIPPING</a>
+						<i class="bi bi-truck rounded-circle"></i>
+						FREE SHIPPING
 					</li>
 					<li>
-						<i class="bi bi-clock-history"></i>
-						<a href='#'>30 DAY GUARANTEE</a>
+						<i class="bi bi-clock-history rounded-circle"></i>
+						30 DAY GUARANTEE
+					</li>
+					<li>
+					<i class="bi bi-person-circle rounded-circle"></i>
+						24/7 Support
 					</li>
 				</ul>
 				</div>
