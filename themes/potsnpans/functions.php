@@ -140,6 +140,7 @@ add_action( 'widgets_init', 'potsnpans_widgets_init' );
 function potsnpans_scripts() {
 	wp_enqueue_style( 'potsnpans-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'potsnpans-main', get_template_directory_uri()  . '/css/main.css' );
+	wp_enqueue_style( 'bootstrap-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
 
 	wp_style_add_data( 'potsnpans-style', 'rtl', 'replace' );
 
