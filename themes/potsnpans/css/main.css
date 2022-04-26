@@ -10816,4 +10816,10 @@ textarea.form-control-lg {
 }
 .main-navigation .menu-toggle .bi {
   margin-right: 0.6rem;
+}
+
+/* ============= Front Page =============== */
+/* ============= Slider =============== */
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  width: 4%;
 }/*# sourceMappingURL=main.css.map */

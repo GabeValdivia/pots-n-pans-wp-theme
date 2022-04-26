@@ -29,21 +29,6 @@ $utilities: (
     )
 );
 
-// Utilities example code
-// "rounded": (
-//     property: border-radius,
-//     class: rounded,
-//     values: (
-//     null: $border-radius,
-//     0: 0,
-//     1: $border-radius-sm,
-//     2: $border-radius,
-//     3: $border-radius-lg,
-//     circle: 50%,
-//     pill: $border-radius-pill
-//     )
-// ),
-
 @import "./bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -118,5 +103,16 @@ $utilities: (
         .bi {
             margin-right: .6rem;
         }
+    }
+}
+
+/* ============= Front Page =============== */
+
+
+
+/* ============= Slider =============== */
+.carousel {
+    .carousel-control-prev, .carousel-control-next {
+        width: 4%;
     }
 }
