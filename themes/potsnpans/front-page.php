@@ -16,6 +16,7 @@ get_header();
 ?>
     
 	<main id="primary" class="site-main">
+		<!-- Hero Slider -->
 		<section class="container pb-5 pt-3">
 			<div id="carouselExampleDark" class="carousel carousel-dark slide overflow-hidden rounded" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -41,6 +42,16 @@ get_header();
 				</button>
 			</div>	
 		</section>
+		<!-- End Hero Slider -->
+
+		<!-- Best Selling Products -->
+		<section class="container">
+
+			<h1 class="text-center pt-2">Best Selling Products</h1>
+			<p class="text-center pt-2">High quality cookware products worth every cent! Buy it once, buy it for life!</p>
+
+		</section>
+		<!-- End Best Selling Products -->
 	</main><!-- #main -->
 
 <?php
