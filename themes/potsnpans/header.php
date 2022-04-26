@@ -33,11 +33,11 @@
 					<ul class="announcement-bar__list">
 						<li>
 							<i class="bi bi-telephone rounded-circle"></i>
-							<a href='tel:800-111-2222'>800-111-2222</a>
+							<a href='tel:800-111-2222' class='text-decoration-none'>800-111-2222</a>
 						</li>
 						<li>
 							<i class="bi bi-envelope rounded-circle"></i>
-							<a href='mailto:sales@potsnpans.com'>sales@potsnpans.com</a>
+							<a href='mailto:sales@potsnpans.com' class='text-decoration-none'>sales@potsnpans.com</a>
 						</li>
 					</ul>
 
