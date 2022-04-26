@@ -10812,4 +10812,28 @@ textarea.form-control-lg {
   font-size: 0.9rem;
   padding-left: 1.4rem;
   border-radius: 20px !important;
+}
+
+/* ============= Main Menu =============== */
+.main-navigation {
+  font-weight: 500;
+}
+.main-navigation .current-menu-item {
+  background-color: rgb(228, 3, 3);
+}
+.main-navigation a {
+  color: var(--bs-white);
+  padding: 0.6rem 1.4rem;
+}
+.main-navigation a:hover {
+  background-color: rgb(228, 3, 3);
+}
+.main-navigation .menu-toggle {
+  background-color: rgb(204, 0, 0);
+  color: #fff;
+  border: 0;
+  font-weight: 600;
+}
+.main-navigation .menu-toggle .bi {
+  margin-right: 0.6rem;
 }/*# sourceMappingURL=main.css.map */

@@ -64,3 +64,33 @@ $theme-colors: map-merge($theme-colors , $custom-color );
         border-radius: 20px!important;
     }
 }
+
+/* ============= Main Menu =============== */
+.main-navigation {
+    font-weight: 500;
+
+    .current-menu-item {
+        background-color: rgb(228, 3, 3);
+    }
+
+    a {
+        color: var(--bs-white);
+        padding: 0.6rem 1.4rem;
+    }
+    
+    a:hover {
+        background-color: rgb(228, 3, 3);
+    }
+
+    .menu-toggle {
+        background-color: $primary;
+        color: $white;
+        border: 0;
+        font-weight: 600;
+
+
+        .bi {
+            margin-right: .6rem;
+        }
+    }
+}
