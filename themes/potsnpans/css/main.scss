@@ -3,11 +3,15 @@
 // Include any default variable overrides here
 
 $primary: rgb(204, 0, 0);
+$secondary: rgb(164, 13, 13);
 $gray: #E6E6E6;
+$yellow : #FAB400;
 
 $theme-colors: (
     "primary": $primary,
-    "gray": $gray
+    "secondary": $secondary,
+    "gray": $gray,
+    "yellow": $yellow
 );
 
 // Create your own map
@@ -114,11 +118,87 @@ $utilities: (
 
 /* ============= Front Page =============== */
 
-
+.saphire-one-cta-col {
+    background-color: var(--bs-secondary);
+    color: var(--bs-white);
+    padding: 30px;
+}
 
 /* ============= Slider =============== */
 .carousel {
     .carousel-control-prev, .carousel-control-next {
         width: 4%;
+    }
+}
+
+.hp-saphire-one-features {
+
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    padding: 0;
+
+    li {
+
+        list-style-type: none;
+        margin: 0;
+        padding: .3rem 0;
+
+        img.saphire-cta-icon {
+            max-width: 32px;
+            margin-right: .5rem;
+        }
+    }
+    
+    @media(max-width: 767px){
+        align-items: center;
+    }
+}
+
+.saphire-one-cta-col {
+
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+    }
+
+    h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        margin: 0;
+        background-color: var(--bs-yellow);
+        color: var(--bs-white);
+        width: 60%;
+        font-size: 1.8;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+    }
+
+    .btn:hover {
+        background-color: var(--bs-gray);
+        color: var(--bs-secondary);
+    }
+    
+    @media(max-width: 767px){
+        text-align: center;
+    }
+}
+
+.saphire-right-col-img {
+    background-image: url('../img/saphire-one-img-col.webp');
+    background-repeat: none;
+    background-size: cover;
+
+    @media(max-width: 991px){
+        background-image: url('../img/saphire-one-img-col-md.jpg');
+    }
+    
+    @media(max-width: 767px){
+        background-image: none;
     }
 }
