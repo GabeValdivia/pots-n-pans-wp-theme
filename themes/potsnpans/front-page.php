@@ -50,16 +50,16 @@ get_header();
 			<h1 class="text-center pt-2">Best Selling Products</h1>
 			<p class="text-center pt-2">High quality cookware products worth every cent! Buy it once, buy it for life!</p>
 			
-			<div class="pt-5 pb-5">
+			<div class="pt-5 pb-2">
 				<?php echo do_shortcode('[best_selling_products columns=4 limit=4]');?>
 			</div>
 		</section>
 		<!-- End Best Selling Products -->
 
 		<!-- Featured CTA Section -->
-		<section class="container">
+		<section class="container pb-5">
 			<div class="row">
-				<div class="col-md-6 col-lg-4 saphire-one-cta-col g-0">
+				<div class="col-md-6 col-lg-3 saphire-one-cta-col rounded-start g-0">
 					<h1>Saphire One</h1>
 					<h4>Small details, big difference</h4>
 					<ul class="hp-saphire-one-features">
@@ -69,12 +69,24 @@ get_header();
 					</ul>
 					<button type="button" class="btn btn-lg rounded-3">Shop Now</button>
 				</div>
-				<div class="col-md-6 col-lg-8 g-0 saphire-right-col-img">
-					<!-- <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/saphire-one-img-col.webp" alt="Two women in a kitchen sharing a moment"> -->
-				</div>
+				<div class="col-md-6 col-lg-9 g-0 saphire-right-col-img rounded-end"><!--Empty section, image served up as background image via saphire-right-col-img class. For visual effect only--></div>
 			</div>
 		</section>
 		<!-- End Featured CTA Section -->
+
+		<!-- Special Offers Products -->
+		<section class="container">
+
+			<h1 class="text-center pt-2">Best Selling Products</h1>
+			<p class="text-center pt-2">High quality cookware products worth every cent! Buy it once, buy it for life!</p>
+			
+			<div class="pt-5 pb-2">
+				<?php echo do_shortcode('[sale_products columns=4 limit=4]');?>
+			</div>
+		</section>
+		<!-- End Special Offers Products -->
+
+
 	</main><!-- #main -->
 
 <?php
