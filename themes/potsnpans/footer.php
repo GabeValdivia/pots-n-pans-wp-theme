@@ -12,19 +12,27 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'potsnpans' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'potsnpans' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'potsnpans' ), 'potsnpans', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		
+		<div class="bg-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 pt-4 pb-4">
+						test 1
+					</div>
+					<div class="col-md-3 pt-4 pb-4">
+						test 1
+					</div>
+					<div class="col-md-3 pt-4 pb-4">
+						test 1
+					</div>
+					<div class="col-md-3 pt-4 pb-4">
+						test 1
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

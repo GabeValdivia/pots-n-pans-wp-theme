@@ -72,12 +72,19 @@ get_header();
 				<div class="col-md-6 col-lg-9 g-0 saphire-right-col-img rounded-end"><!--Empty section, image served up as background image via saphire-right-col-img class. For visual effect only--></div>
 			</div>
 		</section>
-		<!-- End Featured CTA Section -->
+		<!-- EndQueue
+• 1 / 6
+10:34
+Now playing
+Added to queue
+Freed captive explains why Russians are taking civilians
+MX
+ Featured CTA Section -->
 
 		<!-- Special Offers Products -->
 		<section class="container">
 
-			<h1 class="text-center pt-2">Best Selling Products</h1>
+			<h1 class="text-center pt-3">Special Offers</h1>
 			<p class="text-center pt-2">High quality cookware products worth every cent! Buy it once, buy it for life!</p>
 			
 			<div class="pt-5 pb-2">
@@ -90,4 +97,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-//get_footer();
+get_footer();
