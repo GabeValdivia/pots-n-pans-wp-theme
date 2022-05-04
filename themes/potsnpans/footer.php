@@ -17,16 +17,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 pt-4 pb-4">
-						test 1
+						<?php dynamic_sidebar('footer-widget-col-one'); ?>
 					</div>
 					<div class="col-md-3 pt-4 pb-4">
-						test 1
+						<?php dynamic_sidebar('footer-widget-col-two'); ?>
 					</div>
 					<div class="col-md-3 pt-4 pb-4">
-						test 1
+						<?php dynamic_sidebar('footer-widget-col-three'); ?>
 					</div>
 					<div class="col-md-3 pt-4 pb-4">
-						test 1
+						<?php dynamic_sidebar('footer-widget-col-four'); ?>
 					</div>
 				</div>
 			</div>
